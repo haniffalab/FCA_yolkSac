@@ -10,7 +10,18 @@ This script was used to perform doublet detection on all 10x data and CITE-seq u
 For all CITE-seq data shown in manuscript and figures. 
 This pipeline takes CITEseq RNA and protein data, creates an indexed intersection between both RNA and protein partitions, normalises protein data to empty drop expression values and regresses background using a GMM model.
 
-### scvi
+### pipeline_3_Souporcell_maternal_contaminent_estimation
+For all YS scRNAseq data. 
+This pipeline takes scRNAseq data, applies the souporcell tool at estimated k=1,2 and 3 unqiue genomes to determine which k has highest probability and returns barcodes of probable maternal contaminents. 
+
+### pipeline_4_data_integration_scVI_Harmony_BBKNN_kBET_comparisons
+For all YS scRNAseq data. 
+This pipeline takes scRNAseq data, applies the scVI tool for variational autoencoder-based integration of donor and chemistry covaraites in the YS scRMNA-seq data. Also included are pipelines for BBKNN and Harmony based integrations as well as batch-correction testing with kBet and sil scoring.
+
+
+
+
+###
 ### Milo
 ### cellbender
 ### pyscenic GAM
