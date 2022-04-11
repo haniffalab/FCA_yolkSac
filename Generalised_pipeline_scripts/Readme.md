@@ -7,6 +7,7 @@ For all 10x and CITE-seq (mRNA lane) data shown in manuscript figures.
 This script was used to perform doublet detection on all 10x data (including DS/non-DS fetal BM, ABM, CB) and CITE-seq (including total fetal BM and CD34+ fetal BM, FL, CB) using the scrublet package which estimates a scrublet score for each cell in the input data.
 
 ### scvi
+### Milo
 ### cellbender
 ### GMM
 ### pyscenic GAM
