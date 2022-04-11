@@ -18,13 +18,13 @@ This pipeline takes scRNAseq data, applies the souporcell tool at estimated k=1,
 For all YS scRNAseq data. 
 This pipeline takes scRNAseq data, applies the scVI tool for variational autoencoder-based integration of donor and chemistry covaraites in the YS scRMNA-seq data. Also included are pipelines for BBKNN and Harmony based integrations as well as batch-correction testing with kBet and sil scoring.
 
-### pipeline_5_cellbender_ambinet_rna_estimation
-For all YS/eLIV scRNAseq data. 
-This pipeline takes scRNAseq data, applies the Cellbender tool for estimation of background ambient RNA signatures.
+### pipeline_5_Milo_differential_neighbourhood_abundence
+For all YS scRNAseq data. 
+This pipeline takes YS scRNAseq data, applies the Milo tool for estimation of neighbourhood abundences across gestational time
 
 
-### Milo
-### cellbender
+### Milo 
+
 ### pyscenic GAM
 
 
