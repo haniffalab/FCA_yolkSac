@@ -11,10 +11,10 @@ Single cell datasets used in this study include: 10X data (YS, Embryonic Liver, 
 
 #### Novel data accessibility
 There are no restrictions on data availability for novel data presented in this study.All novel raw sequencing data from this study are made publicly available at ArrayExpress as FASTQs and count matrices as follows:
-i) Human embryonic liver and yolk sac 10x scRNA-seq (E-MTAB-10552)
-ii) Human embryonic yolk sac Smart-seq2 scRNA-seq (E-MTAB-10888)
-iii) Human embryonic yolk sac CITE-seq (E-MTAB-11549)  
-iv) Human embryonic liver CITE-seq (E-MTAB-11618)
+- i) Human embryonic liver and yolk sac 10x scRNA-seq (E-MTAB-10552)
+- ii) Human embryonic yolk sac Smart-seq2 scRNA-seq (E-MTAB-10888)
+- iii) Human embryonic yolk sac CITE-seq (E-MTAB-11549)  
+- iv) Human embryonic liver CITE-seq (E-MTAB-11618)
 
 Please refer to our manuscript supplementary table 3 for accessions of all published data used in this manuscript.
 The following data are also available to download as Scanpy h5ad objects with transformed counts via our interactive webportal: https://developmental.cellatlas.io/yolk-sac: 
