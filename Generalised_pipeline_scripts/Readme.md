@@ -4,12 +4,15 @@
 
 ### pipeline_1_scrublet_IG.ipynb
 For all 10x and CITE-seq (mRNA lane) data shown in manuscript figures.
-This script was used to perform doublet detection on all 10x data (including DS/non-DS fetal BM, ABM, CB) and CITE-seq (including total fetal BM and CD34+ fetal BM, FL, CB) using the scrublet package which estimates a scrublet score for each cell in the input data.
+This script was used to perform doublet detection on all 10x data and CITE-seq using the scrublet package which estimates a scrublet score for each cell and mean scrublet scores for clusters derived per sample in the input data.
+
+### pipeline_2_CITE_seq_DSB_GMM_processing_IG
+For all CITE-seq data shown in manuscript and figures. 
+This pipeline takes CITEseq RNA and protein data, creates an indexed intersection between both RNA and protein partitions, normalises protein data to empty drop expression values and regresses background using a GMM model.
 
 ### scvi
 ### Milo
 ### cellbender
-### GMM
 ### pyscenic GAM
 
 
