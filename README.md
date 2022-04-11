@@ -18,13 +18,13 @@ There are no restrictions on data availability for novel data presented in this 
 
 Please refer to our manuscript supplementary table 3 for accessions of all published data used in this manuscript.
 The following data are also available to download as Scanpy h5ad objects with transformed counts via our interactive webportal: https://developmental.cellatlas.io/yolk-sac: 
-i) Yolk sac 10x scRNA-seq data
-ii) Yolk sac and embryonic liver 10x scRNA-seq data combined
-iii) Human gastrulation data (SS2) integrated with yolk sac scRNA-seq combined (10x)
-iv) Mouse gastrulation data (10x) - haematopoietic cells only
-v) iPSC data - macrophage lineage only
-vi) Yolk sac CITE-seq data (RNA/protein)
-vii) Embryonic liver CITE-seq (RNA/protein)
+- i) Yolk sac 10x scRNA-seq data
+- ii) Yolk sac and embryonic liver 10x scRNA-seq data combined
+- iii) Human gastrulation data (SS2) integrated with yolk sac scRNA-seq combined (10x)
+- iv) Mouse gastrulation data (10x) - haematopoietic cells only
+- v) iPSC data - macrophage lineage only
+- vi) Yolk sac CITE-seq data (RNA/protein)
+- vii) Embryonic liver CITE-seq (RNA/protein)
 Our webportal also contains a searchable database of genes implicated in inherited blood and immune cell disorders. All source data are available in the accompanying source data file, unless manuscript or figure legend refers to a Supplementary Table. 
 
 Metadata for single cell datasets described above are provided in manuscript Supplementary Tables (see manuscript Supplementary Information guide), with an overview provided in Supplementary Table 1. Source data for graphs in main and extended figures are provided as excel files. T
