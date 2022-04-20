@@ -34,3 +34,6 @@ This pipeline takes scRNAseq data, trains a model in the low-dimensional embeddi
 For all CITE-seq data shown in figures involving decision tree.
 This pipeline takes CITE-seq protein data and applies the rpart tool to train a model tree in order to show step-wise relative importance (left to right) and expression of protein markers in YS cell states. Optimum number of splits determined by minimum combination of error rate and standard devaiation scores whilst n_cplits being > number of cell states inputted. 
 
+### pipeline_9_SAMAP_cross_species_embeddings
+For integration of YS and mouse gastrulation scRNAseq data and predictive modelling using a logisitc regression framework trained on low-dimensional embedding of the human YS integrated latent spaces. 
+
