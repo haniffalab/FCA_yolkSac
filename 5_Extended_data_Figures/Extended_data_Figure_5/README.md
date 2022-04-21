@@ -18,7 +18,7 @@ Code used to generate: UMAP visualisation of HSPC/HSCs from YS, including gastru
 
 
 ### 5_Extended_figure_5e_AR.ipynb
-Code used to generate: Dot plot showing the level (colour scale) and percent expression (dot size) of genes distinguishing YS HSPC1 from YS HSPC2 in the scRNA-seq data(data scaled max_value=10).
+Code used to generate: Dot plot showing the level (colour scale) and percent expression (dot size) of genes distinguishing YS HSPC1 from YS HSPC2 in the scRNA-seq data. Data log-normalised and scaled max_value=10.
 
 
 ### 6_Extended_figure_5h
@@ -26,7 +26,7 @@ Code used to generate: Mean logistic regression class projection probabilities f
 
 
 ### 7_Extended_figure_5i_AR.ipynb
-Code used to generate: Violin plot showing expression of known endothelial markers across the endothelium cell (EC) states identified in YS and matched EL scRNA-seq data (data scaled max_value = 10).
+Code used to generate: Violin plot showing expression of known endothelial markers across the endothelium cell (EC) states identified in YS and matched EL scRNA-seq data. Data log-normalised and scaled max_value=10.
 
 
 ### 8_Extended_figure_5l_AR.ipynb
@@ -35,4 +35,7 @@ Code used to generate: Dot plot showing the level (colour scale) and percent exp
 
 ### 9_EC_gene_module_scores.ipynb
 Code used to generate: Differentially expressed genes computed across each EC subset (P_value < 0.05) with functional annotations provided by gene set enrichment analysis (Supplementary table 17)
+
+
+## Add ED5F
 

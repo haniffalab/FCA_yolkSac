@@ -1,5 +1,5 @@
 # FCA Human Yolksac study
-## Botting, Goh, Webb and Rose et al., 2022, In submission to Nature, 'Multi-organ functions of yolk sac during human early development'
+## Botting, Goh, Webb and Rose et al., 2022, 'Multi-organ functions of yolk sac during human early development'
 
 ### This repository contains all code relating to the anaylsis of the Human Cell Atlas: Fetal Cell Atlas - Yolk Sac project. 
 
@@ -43,3 +43,6 @@ Generalisable analysis scripts are saved in the 'pipelines' directory. Please re
 Custom scripts for each figure (that do not fall under 'generalisable' pipeline scripts) are saved in the 'figures' directory, where you will see all analysis performed on raw count matrix files in order to produce each figure panel for manuscript, with exception of those detailed in 'pipelines' directory. Please refer to methods section of fetal YS manuscript for further information on methods used in each custom script. 
 
 The authors of custom scripts (whether novel approaches or adapted from published workflows) are noted by initials appended to script filename as follows: [Issac Goh](https://github.com/Issacgoh) (IG), [Mariana Quiroga Londono](https://github.com/marianaql) (MQL), [[Simone Webb](https://github.com/simonewebb) (SW), 
+
+
+### edit extended data figs code have been added to each corresponding fig directory***

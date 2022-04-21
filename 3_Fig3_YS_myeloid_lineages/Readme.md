@@ -16,7 +16,7 @@ Code used to generate: FDG overlaid with PAGA showing monocyte-independent traje
 ### 5_iPSC_macrophage_trajectories.ipynb
 Code used to generate:  FDG of iPSC-derived myeloid lineage cells overlaid with PAGA showing monocyte-independent trajectory from iPSC scRNA-seq AEC to macrophage prior to D21 (; n= 5; k=779 left) and monocyte-dependent trajectory to macrophage after D21 (n=7; k=8553; right). Arrows indicate the trend of trajectory. Coloured by cell state. 
 
-### Scenic_regulon_analyses:
+### 6-10_Scenic_regulon_analyses:
 - 6_pySCENIC - Integration with scanpy.ipynb
 - 7_pySCENIC_List of Transcription Factors.ipynb
 - 8_pyScenic_regulon_estimation_workflow_hu.ipynb
@@ -25,4 +25,4 @@ Code used to generate:  FDG of iPSC-derived myeloid lineage cells overlaid with 
 Code used to generate: Matrix heatmap showing the pySCENIC-derived regulons associated with the YS macrophage trajectories as shown in d-e for monocyte independent, dependent and iPSC derived pathways respectively. 
 
 ### 11_Figure_3h_AR.ipynb
-Code used to generate: Dot plot showing the level (colour scale) and percent expression (dot size) of macrophage and microglia markers (see groupings) within the YS mono/mac lineage and in comparison to microglia, microglia-like and macrophage cell states in fetal brain22 and fetal skin17. Fetal brain and fetal skin cell states identified from logistic regression output in Extended Data 6f. Each dataset was scaled independently to a max_value = 10 then combined for plotting, vmin=0 
+Code used to generate: Dot plot showing the level (colour scale) and percent expression (dot size) of macrophage and microglia markers (see groupings) within the YS mono/mac lineage and in comparison to microglia, microglia-like and macrophage cell states in fetal brain and fetal skin. Fetal brain and fetal skin cell states identified from logistic regression output in Extended Data 6f. Each dataset was scaled independently to a max_value = 10 then combined for plotting, vmin=0. 
