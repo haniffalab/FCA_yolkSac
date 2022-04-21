@@ -16,7 +16,7 @@ Code used to generate: FDG overlaid with PAGA showing monocyte-independent traje
 ### 5_iPSC_macrophage_trajectories.ipynb
 Code used to generate:  FDG of iPSC-derived myeloid lineage cells overlaid with PAGA showing monocyte-independent trajectory from iPSC scRNA-seq AEC to macrophage prior to D21 (; n= 5; k=779 left) and monocyte-dependent trajectory to macrophage after D21 (n=7; k=8553; right). Arrows indicate the trend of trajectory. Coloured by cell state. 
 
-### Scenic_regulon_analyses:
+### 6-10 Scenic_regulon_analyses:
 - 6_pySCENIC - Integration with scanpy.ipynb
 - 7_pySCENIC_List of Transcription Factors.ipynb
 - 8_pyScenic_regulon_estimation_workflow_hu.ipynb
