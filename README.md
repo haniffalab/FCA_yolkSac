@@ -1,5 +1,5 @@
 # FCA Human Yolksac study
-## Botting, Goh, Webb and Rose et al., 2022, 'Multi-organ functions of yolk sac during human early development'
+## Goh, Botting, Webb and Rose et al., 2022, 'Multi-organ functions of yolk sac during human early development'
 
 ### This repository contains all code relating to the anaylsis of the Human Cell Atlas: Fetal Cell Atlas - Yolk Sac project. 
 
