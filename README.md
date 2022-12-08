@@ -30,9 +30,13 @@ Our webportal also contains a searchable database of genes implicated in inherit
 Metadata for single cell datasets described above are provided in manuscript Supplementary Tables (see manuscript Supplementary Information guide), with an overview provided in Supplementary Table 1. Source data for graphs in main and extended figures are provided as excel files. T
 
 #### External data accessibility
-Please refer to our manuscript supplementary table 3 for accessions of all published data used in this manuscript. There are no known accessibility restrictions on these external datasets. 
+Please refer to our manuscript supplementary table 6 & 7 for accessions of all published data used in this manuscript. There are no known accessibility restrictions on these external datasets. 
 
-YS - yolk sac. FL - fetal liver. FBM - fetal bone marrow. ABM - adult bone marrow. AGM - aorta-gonad-mesonephros. KI - kidney. SK - skin.
+Fetal:
+Organs include: yolk sac (n=10,k=169494), aorta-gonad-mesonephros (AGM) (n=4,k=12248), skin (n=13, k =178563), brain (n=72, k=2.16million), gonads (n=44, k=14244), thymus (n=11, k=104251), gut (n= 5, k= 79435), kidneys (n= 4, k=26372), liver (n=14, k=210549), spleen (n=10, k=127186), bone marrow (n=8, k=93677) and mesenteric lymph node (MLN) (n=2, k=6039).
+
+Adult:
+Organs include: bladder (n=3, k=2831), bone marrow (n=10, k=9408), brain (n=7, k=832), fat (n=2, k=1667), gut (n=13, k=1678), heart (n=7, k=486), kidney (n=9, k=358), liver (n=12, k=4823), lung (n=19, k=46805), lymph node (n=,15 k=2507), muscle (n=13, k=2553), pancreas (n=2, k=1030), omentum (n=4, k=103), prostate (n=2, k=356), skin (n=7, k=1088), spleen (n=15, k=13643), thymus (n=3, k=508), trachea (n=6, k=1376), uterus (n=6, k=632), vasculature (n=2, k=1602)
 
 ## Code availability
 
