@@ -28,7 +28,7 @@ This pipeline takes YS/mouse scRNAseq data, estimates trasncription factor regul
 
 ### pipleine_7_low_dimensional_Ealstinet_regression_workflow
 For all scRNAseq data.
-This pipeline takes scRNAseq data, trains a model in the low-dimensional embeddings of combined datasets, and estimates probabilities of label correspondence between the training data and prediction data. This out is then thesholded differentially depending on whether the model is used as a classifier or to show probabillisitc relationships between corresponding cell states in two datasets.
+This pipeline takes scRNAseq data, trains a model in either the combined low-dimensional embeddings of combined datasets or in expression data of the reference data, and estimates probabilities of label correspondence between the training data and prediction data. This out is then thesholded differentially depending on whether the model is used as a classifier or to show probabillisitc relationships between corresponding cell states in two datasets.
 
 ### pipeline_8_decision_tree
 For all CITE-seq data shown in figures involving decision tree.
