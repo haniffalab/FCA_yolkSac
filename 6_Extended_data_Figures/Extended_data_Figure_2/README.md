@@ -11,7 +11,7 @@ Code used to generate: Mean logistic regression class assignment probabilities f
 ### 3_Extended_figure_2c_AR.ipynb
 Code used to generate: Median logistic regression class prediction probabilities for a model trained on EL scRNA-seq cell states (x-axis) and projected on YS scRNA-seq (y-axis) with a probability threshold of 0.7. 
 
-### 4_Extended_figure_2d
+### Legacy - 4_Extended_figure_2d
 Code used to generate:  Decision tree showing the step-wise relative importance (left to right) and expression (hi/lo) of protein markers in determining YS cell states using the protein data from CITE-seq. For better visualisation of YS lymphoid progenitor phenotypic diversity, refined YS CITE-seq progenitor cell states ‘Innate lymphoid progenitors’, ‘Lymphoid NK/ILC’ and ‘Lymphoid B lineage’ were manually grouped into ‘Innate Lymphoid progenitors’ after analysis. Optimum number of splits determined by minimum combination of error rate and standard deviation scores whilst n_splits being > number of cell states inputted resulting in 27 branches. 
 
 ### 5_Extended_figure_2e_AR.ipynb
