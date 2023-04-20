@@ -21,7 +21,7 @@ Code used to generate: UMAP visualisation of HSPC/HSCs from YS, including gastru
 Code used to generate: Dot plot showing the level (colour scale) and percent expression (dot size) of genes distinguishing YS HSPC1 from YS HSPC2 in the scRNA-seq data. Data log-normalised and scaled max_value=10.
 
 
-### 6_Extended_figure_5h
+### 6_LR_EC_cross_organ_YS_comparison
 Code used to generate: Mean logistic regression class projection probabilities for a model trained on YS endothelial cell (EC) states (y-axis) to project EC states in AGM11,21, matched EL, and FBM16 (x-axis) with a probability threshold of 0.7(vmin=0, vmax=1) (Supplementary table 16).
 
 
