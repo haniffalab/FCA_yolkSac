@@ -1,4 +1,4 @@
-# Fig4_YS_Endoderm
+# Fig2_YS_Endoderm
 
 This directory contains code for the approaches used to generate figures and analyses used in Figure5 of the YS manuscript. 
 
