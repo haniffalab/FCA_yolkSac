@@ -1,4 +1,4 @@
-# Fig2_YS_Hematopoiesis
+# Fig3_YS_Hematopoiesis
 This directory contains code for the approaches used to generate figures and analyses used in Figure2 of our manuscript. 
 
 ### 1_output_human_gastrulation_YS_overlay_A2_V8_IG_logist_general.ipynb
