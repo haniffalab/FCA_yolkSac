@@ -1,10 +1,10 @@
 # Fig_1_YS_scRNA_seq code
 This directory contains code for the approaches used to generate figures and analyses used in Figure1 of our manuscript. 
 
-### 1_Fig_1b_AR.ipynb
+### 1_YS_UMAP_AR.ipynb
 Code used to generate: UMAP visualisation of the cell states identified in YS and vitelline duct from n=8 independent biological repeats (k=134,765). Colours represent cell states. Insert coloured by YS tissue layer as depicted in the diagram. Acronyms: DC, dendritic cell; MEM,  megakaryocyte-erythroid-mast cell lineage; MK, megakaryocyte; pre., precursor. 
 
-### 2_Fig_1d_AR.ipynb
+### 2_YS_dotplot_gene_and_protein_AR.ipynb
 Code used to generate: Dot plot showing the level (colour scale) and percent expression (dot size) of select genes from the n=8 YS scRNA-seq cell states as shown in b (left, data scaled max_value=10) and the protein equivalent from n=2 biologically independent YS CITE-seq samples (right, data scaled zero_centre = False). * indicated genes validated by RNAscope and ** indicated equivalent proteins validated by Immunohistochemistry (IHC) / Immunofluorescence (IF)
 
 ### 3_milo_with_FACS_YS_v1.ipynb
