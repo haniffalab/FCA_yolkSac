@@ -1,4 +1,4 @@
-# Fig3_YS_myeloid_lineages
+# Fig5_YS_myeloid_lineages
 This directory contains code for the approaches used to generate figures and analyses used in Figure3 of the YS manuscript. 
 
 ### 1_myeloid_mono_scatter_line_graph.ipynb
