@@ -5,6 +5,9 @@
 
 In this study, we profile in detail the human yolk sac (YS) from 3-8 post-conception weeks (~130k cells) and matched embryonic liver using scRNA-seq, CITE-seq, spatial validation using RNAscope and tissue context of near whole YS using 3D light sheet microscopy. We contextualised human YS haematopoiesis and metabolic functions through comparison with datasets from matched embryonic liver, human and mouse gastrulas, fetal bone marrow, embryonic skin and brain and inducible pluripotent stem cell-derived myeloid cells. 
 
+[embed]https://github.com/haniffalab/FCA_yolkSac/blob/master/YS_ORA_figure_and_caption_V3_T1746_D20230421.pdf[/embed]
+
+
 ## Single cell datasets 
 
 Single cell datasets used in this study include: 10X data (YS, Embryonic Liver, FBM, AGM, Liver, Brain, Skin, Kidney, Myeloid iPSC culture and mouse gastrulation), SS2 data (YS), and CITE-seq data (CD34+/- YS and Embryonic Liver). 
