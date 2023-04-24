@@ -5,8 +5,32 @@
 
 In this study, we profile in detail the human yolk sac (YS) from 3-8 post-conception weeks (~130k cells) and matched embryonic liver using scRNA-seq, CITE-seq, spatial validation using RNAscope and tissue context of near whole YS using 3D light sheet microscopy. We contextualised human YS haematopoiesis and metabolic functions through comparison with datasets from matched embryonic liver, human and mouse gastrulas, fetal bone marrow, embryonic skin and brain and inducible pluripotent stem cell-derived myeloid cells. 
 
-
+## Graphical abstract
 ![alt text](https://github.com/haniffalab/FCA_yolkSac/blob/master/ORA_graphical_abstract.png)
+
+## Study summary
+Structured Abstract
+
+#### FIGURE CAPTION
+Multiorgan functions of the human yolk sac
+We characterized functions of the developing human YS, combining scRNA-seq and CITE-seq, with 2D and 3D imaging techniques providing spatial context and validation. Our findings revealed YS contributions to metabolic and nutritional support, and early hematopoiesis. We characterized myeloid-bias in early hematopoiesis, distinct myeloid differentiation trajectories, evolutionary divergence in initial erythropoiesis, and YS contributions to developing tissue macrophages.
+
+#### INTRODUCTION
+The yolk sac (YS) is an extraembryonic structure that generates the first blood and immune cells, and provides nutritional and metabolic support to the developing embryo. Current knowledge of these functions is based on pivotal studies in model systems, and insights from human studies are limited. Single cell genomics technologies have facilitated the interrogation of human developmental tissues at unprecedented resolution. Atlases of blood and immune cells from multiple organs have been greatly enhanced by focused, time-resolved analyses of specific tissues.   
+
+#### RATIONALE
+To characterize the functions of human YS, we performed single cell RNA sequencing (scRNA-seq) and cellular indexing of transcriptomes and epitopes (CITE-seq) on YS and paired embryonic liver. After integration with external datasets, our reference comprised 169,798 cells from 10 samples spanning 4-8 post-conception weeks (PCW) or Carnegie Stages (CS) 10-23, from which we identified 43 distinct cell states. A repertoire of 2D and 3D imaging techniques provided spatial context and validation. We benchmarked the cellular products and differentiation pathways in two hematopoietic inducible pluripotent stem cell (iPSC) culture protocols, compared against our reference.
+
+#### RESULTS
+We identified that YS metabolic and nutritional support originates in the endoderm, and discovered that endoderm produced coagulation proteins and growth factors that modulate hematopoiesis—erythropoietin (EPO) and thrombopoietin (THPO). While metabolic and coagulation protein production was conserved between human, mouse, and rabbit, EPO and THPO production was observed in human and rabbit only. 
+
+We reconstructed trajectories from the transient YS hemogenic endothelium to early hematopoietic stem/ progenitor cells (HSPCs). Using transcriptomic signatures of early and definitive hematopoiesis, we were able to parse YS HSPCs into myeloid-biased early HSPCs, rapidly outnumbered by lymphoid and megakaryocyte-biased definitive HSPCs around CS14, when hematopoietic cells first emerge from the aorta–gonad–mesonephros (AGM) region. Human embryonic liver remained macroscopically pale prior to CS14, and tracking hemoglobin subtypes led us to conclude that initial erythropoiesis is YS-restricted. This differed from the situation in the mouse, where Hb subtypes suggested two waves of pre-AGM erythropoiesis, including maturation in the macroscopically red embryonic liver. 
+
+Distinct myeloid cell types and differentiation pathways were observed pre– and post– AGM. Before CS14, monocytes were absent and macrophages originated from HPSCs via a pre-macrophage cell state. After CS14, monocytes emerged and a second, monocyte-dependent differentiation trajectory was reconstructed. A rare subset of TREM2+ macrophages, with a microglia-like transcriptomic signature, was present after CS14. Assembling a 12-organ reference of developing macrophages, we revealed that TREM2+ macrophages reside in skin, gonads, brain and AGM, but not in bone marrow, liver, kidney, thymus, mesenteric lymph nodes or gut. Using a transcriptomic signature of pre-AGM macrophages to predict the contribution of YS macrophages to developing tissue macrophage populations, we found retention of this signature in gonad, liver, skin, and AGM macrophages. The iPSC system optimized for macrophage production recapitulated the two routes to macrophage differentiation, but did not generate the diversity of macrophages (including TREM2+ macrophages) observed in developing tissues.
+
+#### CONCLUSIONS
+Our study illuminates a previously obscure phase of human development, where vital functions are delivered by the YS– a transient extraembryonic organ. Our comprehensive single cell atlas will provide a valuable resource for studying the cellular differentiation pathways unique to early life, and leveraging these for tissue engineering and cellular therapy.
+
 
 
 ## Single cell datasets 
