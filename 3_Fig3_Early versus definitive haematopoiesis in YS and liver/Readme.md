@@ -1,6 +1,11 @@
 # Fig3_YS_Hematopoiesis
 This directory contains code for the approaches used to generate figures and analyses used in Figure2 of our manuscript. 
 
+### 1_HSPC_DEF_early_cross_organ_KDE_density.pynb
+Code used to generate:
+- Integrated subset of HSCs and HSPCs derived from the 12-organ human fetal atlas integration and iPSC-generated HSCs.
+- KDE overlay on UMAP embeddings for haematopoietic HSPC/HSC cell statesacross the aforementioned integrated landscape for each HSPC/HSC population subset per organ.
+
 ### 1_output_human_gastrulation_YS_overlay_A2_V8_IG_logist_general.ipynb
 Code used to generate:
 - Median logistic regression class prediction probabilities for a model trained on YS scRNA-seq cell states (x-axis) and projected on cell states in human gastrulation scRNA-seq data20 with a probability threshold of 0.7 (y-axis). This LR was performed after reannotating human gastrula data in-house
