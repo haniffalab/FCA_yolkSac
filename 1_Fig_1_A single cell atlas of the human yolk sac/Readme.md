@@ -1,5 +1,5 @@
 # Fig_1_YS_scRNA_seq code
-This directory contains code for the approaches used to generate figures and analyses used in Figure1 of our manuscript. 
+This directory contains code for the approaches used to generate figures and analyses used in Figure1 of our manuscript. Data was pre-processed using pipeline scripts under "/FCA_yolksac/7_Generalised_pipeline_scripts". Scrublet doublet detection: (1_pipeline_1_scrublet_qc), Soup or cell maternal contaimnation: 3_pipeline_3_souporcell_maternal_contamination, integration and batch correction:4_pipeline_4_data_integration_scVI_Harmony_BBKNN_kBET_comparisons).
 
 ### 1_YS_UMAP_AR.ipynb
 Code used to generate: UMAP visualisation of the cell states identified in YS and vitelline duct from n=8 independent biological repeats (k=134,765). Colours represent cell states. Insert coloured by YS tissue layer as depicted in the diagram. Acronyms: DC, dendritic cell; MEM,  megakaryocyte-erythroid-mast cell lineage; MK, megakaryocyte; pre., precursor. 
