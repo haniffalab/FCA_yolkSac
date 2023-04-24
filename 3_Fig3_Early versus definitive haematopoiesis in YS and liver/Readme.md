@@ -21,6 +21,6 @@ Code used to generate:
 
 - Density plots showing the distribution of YS HSPC1 (left) and HSPC2 (right) in the integrated UMAP landscape of HSPC/HSCs from YS (n=8, k=2,597), AGM21 (n=1, k=28), matched EL (n=3, k=412) and fetal bone marrow16 (BM) (n=9, k=92) scRNA-seq datasets. Colour of HSC/HSPC cells represents the z-scored kernel density estimation (KDE) score for each population.
 
-### 5_AEC-HE_HSPC_trajectories.ipynb
+### 5_cellrank_probabillisitc_HSPC_transition_density.ipynb.ipynb
 Code used to generate: Circular plots and FDG overlaid with PAGA showing trajectory of YS scRNA-seq HSPC probabillistic lineage restrictions. 
 
