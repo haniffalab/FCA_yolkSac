@@ -3,13 +3,12 @@
 
 ### This repository contains all code relating to the anaylsis of the Human Cell Atlas: Fetal Cell Atlas - Yolk Sac project. 
 
-In this study, we profile in detail the human yolk sac (YS) from 3-8 post-conception weeks (~130k cells) and matched embryonic liver using scRNA-seq, CITE-seq, spatial validation using RNAscope and tissue context of near whole YS using 3D light sheet microscopy. We contextualised human YS haematopoiesis and metabolic functions through comparison with datasets from matched embryonic liver, human and mouse gastrulas, fetal bone marrow, embryonic skin and brain and inducible pluripotent stem cell-derived myeloid cells. 
+In this study, we profile in detail the human yolk sac (YS) from 3-8 post-conception weeks (~169k cells) and matched embryonic liver using scRNA-seq, CITE-seq, spatial validation using RNAscope and tissue context of near whole YS using 3D light sheet microscopy. We contextualised human YS haematopoiesis and metabolic functions through comparison with datasets from matched embryonic liver, human and mouse gastrulas, fetal bone marrow, embryonic skin and brain and inducible pluripotent stem cell-derived myeloid cells. 
 
 ## Graphical abstract
 ![alt text](https://github.com/haniffalab/FCA_yolkSac/blob/master/ORA_graphical_abstract.png)
 
 ## Study summary
-Structured Abstract
 
 #### FIGURE CAPTION
 Multiorgan functions of the human yolk sac
@@ -35,7 +34,7 @@ Our study illuminates a previously obscure phase of human development, where vit
 
 ## Single cell datasets 
 
-Single cell datasets used in this study include: 10X data (YS, Embryonic Liver, FBM, AGM, Liver, Brain, Skin, Kidney, Myeloid iPSC culture and mouse gastrulation), SS2 data (YS), and CITE-seq data (CD34+/- YS and Embryonic Liver). 
+Single cell datasets used in this study include: 10X data (YS, Embryonic Liver, FBM, AGM, Liver, Brain, Skin, Kidney, Thymus, Gut, MLN, Spleen, Myeloid iPSC culture and mouse gastrulation), SS2 data (YS), and CITE-seq data (CD34+/- YS and Embryonic Liver). 
 
 #### Novel data accessibility
 There are no restrictions on data availability for novel data presented in this study.All novel raw sequencing data from this study are made publicly available at ArrayExpress as FASTQs and count matrices as follows:
