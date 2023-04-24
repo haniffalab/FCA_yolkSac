@@ -2,6 +2,10 @@
 
 This directory contains code for the approaches used to generate figures and analyses used in Extended_data_Figure_3 of our manuscript. 
 
+
+### 3_YS_HNF4A_expression_AR.ipynb
+Code used to generate: Feature plot of YS scRNA-seq (as shown in Fig. 1b) log-normalised scaled max value = 10 gene expression of HNF4A (n=8, k=134,765)
+
 ### 1_milo_with_FACS_YS_v1
 Code used to generate: Bar plot showing the fraction of yolk sac (YS) scRNA-seq cell states over time using matched data as per Milo analysis shown in Fig. 1f. DC, dendritic cell; MOP, monocyte progenitor; MK, megakaryocyte; EC, endothelial cell.
 

@@ -10,6 +10,9 @@ Data was pre-processed using pipeline scripts under "/FCA_yolksac/7_Generalised_
 ### 2_YS_SS2_logistic_regression_overlay.ipynb
 Code used to generate: UMAP visualisation of the YS cells shown in Fig. 1b (n=8, k=134,765) integrated with k=143 plate-based SS2 sequenced cells (triangles) FACS isolated from n=2 individual donors (5-7PCW). Colours indicate 10x cell states (left) and SS2 predicted cell states (right) 
 
-### 3_YS_HNF4A_expression_AR.ipynb
-Code used to generate: Feature plot of YS scRNA-seq (as shown in Fig. 1b) log-normalised scaled max value = 10 gene expression of HNF4A (n=8, k=134,765)
+### 3_LR_YS_scRNAseq_YS_CITEseq_AR.ipynb
+Code used to generate: Mean logistic regression class assignment probabilities for a model trained using YS scRNA-seq cell states from Fig. 1b (y-axis) with a probability threshold of 0.7 onto YS CITE-seq cell states (x-axis), vmin=0 and vmax=1.
+
+### 4_CITEseq_UMAP_AR.ipynb
+Code used to generate: UMAP visualisation of cells sequenced using CITE-seq from n=2 biologically independent YS samples (k=3,559). Coloured by cell state.
 

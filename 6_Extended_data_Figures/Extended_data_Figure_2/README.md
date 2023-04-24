@@ -5,9 +5,6 @@ This directory contains code for the approaches used to generate figures and ana
 ### 1_CITEseq_UMAP_AR.ipynb
 Code used to generate: UMAP visualisation of cells sequenced using CITE-seq from n=2 biologically independent YS samples (k=3,559). Coloured by cell state.
 
-### 2_LR_YS_scRNAseq_YS_CITEseq_AR.ipynb
-Code used to generate: Mean logistic regression class assignment probabilities for a model trained using YS scRNA-seq cell states from Fig. 1b (y-axis) with a probability threshold of 0.7 onto YS CITE-seq cell states (x-axis), vmin=0 and vmax=1.
-
 ### 3_LR_YS_EL_AR.ipynb
 Code used to generate: Median logistic regression class prediction probabilities for a model trained on EL scRNA-seq cell states (x-axis) and projected on YS scRNA-seq (y-axis) with a probability threshold of 0.7. 
 
