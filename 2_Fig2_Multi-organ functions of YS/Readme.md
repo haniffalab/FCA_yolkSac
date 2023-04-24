@@ -13,3 +13,5 @@ Code used to generate: Dot plot showing the level (colour scale) and percent exp
 
 ### 4_MILO-derived_Degs_across_gestation_in_YS_endoderm_AR.ipynb
 Code used to generate: Matrix heatmap of Milo-generated DEGs in YS endoderm across age, grouped by function.
+<br>
+MILO output was generated using pipeline scripts under "/FCA_yolksac/7_Generalised_pipeline_scripts". Differential abundance testing with FACs correction (pipeline_5_Milo_differential_neighbourhood_abundence).
