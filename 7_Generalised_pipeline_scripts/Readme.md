@@ -8,7 +8,7 @@ This script was used to perform doublet detection on all 10x data and CITE-seq u
 
 ### pipeline_2_CITE_seq_DSB_GMM_processing
 For all CITE-seq data shown in manuscript and figures. 
-This pipeline takes CITEseq RNA and protein data, creates an indexed intersection between both RNA and protein partitions, normalises protein data to empty drop expression values and regresses background using a GMM model.
+This pipeline takes CITEseq RNA and protein data, creates an indexed intersection between both RNA and protein partitions, normalises protein data to empty drop expression values and regresses background using a GMM model. For integration, the indexed interesction between both RNA and protein prior to DSB GMM processing is passed into the totalvi pipeline (step_4_totalvi.ipynb).
 
 ### pipeline_3_Souporcell_maternal_contaminent_estimation
 For all YS scRNAseq data. 
