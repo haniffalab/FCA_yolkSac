@@ -2,17 +2,15 @@
 
 This directory contains code for the approaches used to generate figures and analyses used in Extended_data_Figure_2 of our manuscript. 
 
-### 1_CITEseq_UMAP_AR.ipynb
-Code used to generate: UMAP visualisation of cells sequenced using CITE-seq from n=2 biologically independent YS samples (k=3,559). Coloured by cell state.
+### 1_CITEseq_pipeline_step_5_totalvi_DE_dendrogram.ipynb
+For all CITE-seq data shown in manuscript and figures. This pipeline takes CITEseq RNA and protein data, creates an indexed intersection between both RNA and protein partitions, normalises protein data to empty drop expression values and regresses background using a GMM model. For integration, the indexed interesction between both RNA and protein prior to DSB GMM processing is passed into the totalvi pipeline (step_4_totalvi.ipynb).
+<br>
+Data was pre-processed using pipeline scripts under "/FCA_yolksac/7_Generalised_pipeline_scripts". (pipeline_2_CITE_seq_DSB_GMM_processing)
 
-### 3_LR_YS_EL_AR.ipynb
-Code used to generate: Median logistic regression class prediction probabilities for a model trained on EL scRNA-seq cell states (x-axis) and projected on YS scRNA-seq (y-axis) with a probability threshold of 0.7. 
 
-### Legacy - 4_Extended_figure_2d
-Code used to generate:  Decision tree showing the step-wise relative importance (left to right) and expression (hi/lo) of protein markers in determining YS cell states using the protein data from CITE-seq. For better visualisation of YS lymphoid progenitor phenotypic diversity, refined YS CITE-seq progenitor cell states ‘Innate lymphoid progenitors’, ‘Lymphoid NK/ILC’ and ‘Lymphoid B lineage’ were manually grouped into ‘Innate Lymphoid progenitors’ after analysis. Optimum number of splits determined by minimum combination of error rate and standard deviation scores whilst n_splits being > number of cell states inputted resulting in 27 branches. 
+### 2_ELIV_UMAP.ipynb 
+Code used to generate: UMAP and Force directed graph (FDG) visualisation of the haematopoietic cell states identified in the EL scRNA-seq from n=3 biologically independent donors (k=34,681). Colours represent cell states and clouds represent lineages. CMP, common myeloid progenitor; DC, dendritic cell; ELP, early lymphoid progenitor; Eo/Baso, eosinophil/basophil; Ery, erythroid; ETP, early thymic progenitor; HE, hemogenic endothelium; HSC, haematopoietic stem cell; HSPC, haematopoietic stem progenitor cell; ILC, innate lymphoid cell; LMPP, lymphoid-primed multipotent progenitor; Mac, macrophage; MEM, megakaryocyte-erythroid-mast cell lineage; MEMP, megakaryocyte-erythroid-mast cell progenitor; MK, megakaryocyte; MLP, multi-lymphoid progenitor; Mono, monocyte; MOP, monocyte progenitor; MPP, multipotent progenitor; Neut, neutrophil; NK, natural killer cell; pDC, plasmacytoid DC; pre., precursor; prog., progenitor; prolif., proliferating (Supplementary Table 27).
 
-### 5_YS_Liver_CITEseq_UMAP_AR.ipynb
-Code used to generate: UMAP visualisation of cells sequenced using CITE-seq from n=2 biologically independent EL samples (k=7,739). Coloured by cell state.
 
-### 6_YS_Liver_mathcing_celltypes_dotplot_proteins_AR.ipynb
-Code used to generate: Dot plot showing the level (colour scale) and percent expression (dot size) of select proteins per matched refined cell state found in the YS and EL CITE-seq datasets. HSC, haematopoietic stem cell; HSPC, haematopoietic stem and progenitor cell; CMP, common myeloid progenitor; MEMP, MEMP, megakaryocyte-erythroid-mast cell progenitor; pDC, plasmacytoid dendritic cell; MK, megakaryocyte; Early Erythroid and Erythroid; Endothelium and Fibroblast. Data log-normalised and scaled zero_centre = False.
+### 3_YS_EL_scRNAseq_combined_UMAP_AR.ipynb
+Code used to generate: UMAP visualisation of the merged YS and EL scRNA-seq data shown in Fig. 1b and ED3c respectively and coloured by cell state and tissue (Top, YS, n=8, k=134,765; Bottom, liver, n=3, k=49,376). 
