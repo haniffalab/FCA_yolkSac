@@ -26,5 +26,9 @@ Code used to generate: Matrix heatmap showing the pySCENIC-derived regulons asso
 <br>
 Data was pre-processed using pipeline scripts under "/FCA_yolksac/7_Generalised_pipeline_scripts". Regulon analyses were carried out using pyscenic (6_pipeline_6_pyScenic_TF_GAM_modelling)
 
-### 11_11_cross_organ_microglia_macrophage_dotplot_AR.ipynb
+### 11_cross_organ_microglia_macrophage_dotplot_AR.ipynb
 Code used to generate: Dot plot showing the level (colour scale) and percent expression (dot size) of macrophage and microglia markers (see groupings) within the YS mono/mac lineage and in comparison to microglia, microglia-like and macrophage cell states in fetal brain and fetal skin. Fetal brain and fetal skin cell states identified from logistic regression output in Extended Data 6f. Each dataset was scaled independently to a max_value = 10 then combined for plotting, vmin=0. 
+
+### 12_microglia_cellphonedb_dotplot.ipynb
+Code used to generate: Heatmap visualisation of CellphoneDB predicted interactions between microglia-like and endothelial cell states in the YS scRNA-seq (Supplementary Table 18). Colour scale represents z-scored mean expression values of each gene pair.
+
