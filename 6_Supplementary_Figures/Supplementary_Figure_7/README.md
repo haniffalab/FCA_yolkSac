@@ -7,7 +7,7 @@ Code used to generate: Violin plot and dot plot showing expression of known endo
 
 
 ### 2_LR_EC_cross_organ_YS_comparison
-Code used to generate: Mean logistic regression class projection probabilities for a model trained on YS endothelial cell (EC) states (y-axis) to project EC states in AGM11,21, matched EL, and FBM16 (x-axis) with a probability threshold of 0.7(vmin=0, vmax=1) (Supplementary table 16).
+Code used to generate: Mean logistic regression class projection probabilities for a model trained on YS endothelial cell (EC) states (y-axis) to project EC states in AGM11,21, matched EL, and FBM16 (x-axis) with a probability threshold of 0.7(vmin=0, vmax=1) (Supplementary table 14).
 
 
 ### 3_A1_V5_cellrank_HSPC_transition_probability.ipynb
@@ -17,9 +17,9 @@ Code used to determine probability of transition for each curated terminal state
 ### 4_milo_with_FACS_YS_v1
 Code used to generate: Milo beeswarm plot displaying log-fold change distribution (x-axis) in cell abundance across gestation of neighbourhoods calculated with Milo. Significantly differentially abundant neighbourhoods (SpatialFDR>0.1) are colored and neighbourhoods overlapping the same population are grouped together on the y axis.
 
-### 5_YS_CPDB_HSPC_to_stromal_dotplot_AR.ipynb
+### 5_YS_CPDB_HSPC_to_stromal_heatmap_overtime.ipynb
 Code used to generate: 
-Dot plot showing the level (colour scale) and percent expression (dot size) of genes predicted by CellphoneDB to form statistically significant interactions between YS HSPC1/2 and ECs, fibroblasts, smooth muscle cells, and endoderm. Brackets indicate genes which form complexes (data scaled max_value=10). 
+Heatmaps showing mean (standardized) expression of curated and statistically significant (P<0.05) CellphoneDB putative receptor ligand interactions which change across time. Left= HSPC receptors and right= stromal ligands, both grouped by gestational age (table S29). Data is min-max standardized with a distribution of 0-1 (standard-scale = ‘var’). Log normalized cell counts are shown as a barplot above each cell-state column. Sm. = smooth
 
 
 ### 6_EC_gene_module_scores.ipynb
