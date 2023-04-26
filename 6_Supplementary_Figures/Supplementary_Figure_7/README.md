@@ -1,9 +1,9 @@
 # Extended_data_Figure_7 scripts
 This directory contains code for the approaches used to generate figures and analyses used in Figure7 of our manuscript. 
 
-### 1_YS_EL_matched_endothelium_violin_AR.ipynb
+### 1_YS_EL_iPSC_matched_endothelium_dotplot_AR.ipynb
 Code used to generate:
-Code used to generate: Violin plot and dot plot showing expression of known endothelial markers across the endothelium cell (EC) states identified in YS and matched EL scRNA-seq data. Data log-normalised and scaled max_value=10.
+Dot plot showing the mean expression (color scale) and the fraction of cells expressing each gene (dot size) of genes distinguishing endothelial cell subsets in YS (main), matched EL scRNA-seq and iPSC (20) scRNA-seq datasets. Data is min-max standardized with a distribution of 0-1. 
 
 
 ### 2_LR_EC_cross_organ_YS_comparison

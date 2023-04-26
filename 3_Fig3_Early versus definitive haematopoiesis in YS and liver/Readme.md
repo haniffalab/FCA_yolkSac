@@ -8,12 +8,16 @@ Code used to generate:
 - Force directed graph (FDG) visualisation of haematopoietic cell states in the YS scRNA-seq dataset (n=8, k=98,738; dots) integrated with human gastrulation20 scRNA-seq dataset (n=1, k=91; triangles) (left), and equivalent cell states found in the mouse gastrulation scRNA-seq dataset98 (n=28, k=4717; dots)
 
 ### 2_plot_umap_mouse_human_V5.ipynb
+Code used to generate: Force directed graph (FDG) visualisation of haematopoietic cell states in the YS scRNAseq (n=8, k=98,738; dots) , overlayed with data from gastrulation scRNA-seq (n=8, k=98,738; dots). 
+
+
+### 3_plot_umap_mouse_human_V5.ipynb
 Code used to generate: Force directed graph (FDG) visualisation of haematopoietic cell states in the mouse gastrulation scRNA-seq dataset98 (n=28, k=4717; dots). Cross-species integration was carried out using pipeline scripts under "/FCA_yolksac/7_Generalised_pipeline_scripts". Cross species integration and label transfer based on shared sequence homology (tBlastx) (pipeline_9_SAMAP_cross_species_embeddings) ()
 
-### 3_plot_ery_scatter.ipynb
+### 4_plot_ery_scatter.ipynb
 Code used to generate:  Line graph showing the relative change proportion of erythroid lineage cells (y-axis) enriched in expression of globins HBZ (top left), HBG1 (bottom left) and HBZ-repressors BCL11A (top right) and ZBTB7A (bottom right) in YS (pink) and matched embryonic liver (EL; red) scRNA-seq data over gestational age. The y-axis represents the proportion of erythroid lineage cells.
 
-### 4_HSPC_IPSC_comparisons_V4.ipynb
+### 5_HSPC_IPSC_comparisons_V4.ipynb
 Code used to generate:  
 - Integrated subset of HSCs and HSPCs derived from the 12-organ human fetal atlas integration and iPSC-generated HSCs.
 
@@ -21,12 +25,12 @@ Code used to generate:
 
 - Density plots showing the distribution of YS HSPC1 (left) and HSPC2 (right) in the integrated UMAP landscape of HSPC/HSCs from YS (n=8, k=2,597), AGM21 (n=1, k=28), matched EL (n=3, k=412) and fetal bone marrow16 (BM) (n=9, k=92) scRNA-seq datasets. Colour of HSC/HSPC cells represents the z-scored kernel density estimation (KDE) score for each population.
 
-### 5_cellrank_probabillisitc_HSPC_transition_density.ipynb.ipynb
+### 6_cellrank_probabillisitc_HSPC_transition_density.ipynb.ipynb
 Code used to generate: Circular plots illustrating the cellrank-derived probabilistic lineage transition model featuring YS HSPCs and transition probability to terminal macro states. HSPC lineage restriction is qualitatively assessed by density (KDE score) along each terminal-state transition branch. 
 
-### 6_cellrank_probabillisitc_iPSC_primitive_HSPC_transition_density.ipynb
+### 7_cellrank_probabillisitc_iPSC_primitive_HSPC_transition_density.ipynb
 Code used to generate: Circular plots illustrating the cellrank-derived probabilistic lineage transition model featuring iPSC-derived primitive HSPCs (Alsinet etal) and transition probability to terminal macro states. HSPC lineage restriction is qualitatively assessed by density (KDE score) along each terminal-state transition branch. 
 
-### 7_cellrank_probabillisitc_iPSC_definitive_HSPC_transition_density.ipynb
+### 8_cellrank_probabillisitc_iPSC_definitive_HSPC_transition_density.ipynb
 Code used to generate: Circular plots illustrating the cellrank-derived probabilistic lineage transition model featuring iPSC-derived definitive HSPCs (Calvanese etal) and transition probability to terminal macro states. HSPC lineage restriction is qualitatively assessed by density (KDE score) along each terminal-state transition branch. 
 
