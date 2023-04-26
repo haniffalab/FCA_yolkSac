@@ -10,7 +10,10 @@ Code used to generate:  Median logistic regression class prediction probabilitie
 ### 3_HSPC_IPSC_comparisons_V4.ipynb
 Code used to generate: UMAP visualisation of HSPC/HSCs from YS, including gastrulation20, AGM21, matched EL and FBM16 coloured by the z-scored kernel density estimation (KDE) score for each population. YS (n=8, k=2,597), AGM21 (n=1, k=28), matched EL (n=3, k=412) and fetal bone marrow16 (BM) (n=9, k=92) (Supplementary Table 27).
 
-### 4_HSPC_IPSC_comparisons_V4.ipynb
+### 4_Early_late_prim_def_YS_liver_protein_plot.ipynb
+Code used to generate: Dot plot showing the mean expression (color scale) and the fraction of cells expressing each protein (dot size) of differentially expressed proteins between early and definitive HSPCS, alongside canonical HSC markers and lineage markers, in selected cell states from YS and liver CITE-seq data. Data was min-max standardized with a distribution of 0-1. (table S27)
+
+### 5_HSPC_IPSC_comparisons_V4.ipynb
 Code used to generate:  
 - Integrated subset of HSCs and HSPCs derived from the 12-organ human fetal atlas integration and iPSC-generated HSCs.
 
@@ -18,5 +21,5 @@ Code used to generate:
 
 - Density plots showing the distribution of YS HSPC1 (left) and HSPC2 (right) in the integrated UMAP landscape of HSPC/HSCs from YS (n=8, k=2,597), AGM21 (n=1, k=28), matched EL (n=3, k=412) and fetal bone marrow16 (BM) (n=9, k=92) scRNA-seq datasets. Colour of HSC/HSPC cells represents the z-scored kernel density estimation (KDE) score for each population.
 
-### 5_plot_ery_scatter.ipynb
+### 6_plot_ery_scatter.ipynb
 Code used to generate:  (Mouse and Human scRNAseq data) Line graph showing the relative change proportion of erythroid lineage cells (y-axis) enriched in expression of globins in YS (pink) and matched embryonic liver (EL; red) scRNA-seq data over gestational age. The y-axis represents the proportion of erythroid lineage cells.
