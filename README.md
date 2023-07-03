@@ -1,4 +1,5 @@
-# FCA Human Yolksac study
+# Yolk sac cell atlas reveals multiorgan functions during human early development
+## FCA Human Yolksac study
 ## Goh, Botting, Webb and Rose et al., 2022, 'Multiorgan functions of yolk sac during human early development'
 
 ### This repository contains all code relating to the anaylsis of the Human Cell Atlas: Fetal Cell Atlas - Yolk Sac project. 
